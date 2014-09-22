@@ -64,8 +64,8 @@ mkdir -p /etc/uwsgi && mkdir -p /var/log/uwsgi
 
  
 echo 'server {
-        listen          YOUR_SERVER_IP:80;
-        server_name     YOUR_SERVER_FQDN;
+        listen          104.131.57.205:80;
+        server_name     mediarelays.com;
 
          ## Send File Upload via HTTP
 		 client_body_in_file_only clean;
